@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 356px 1fr;
+  flex-wrap: wrap;
+}
