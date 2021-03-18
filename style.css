@@ -10,14 +10,13 @@
   grid-template-columns: 356px 1fr;
   flex-wrap: wrap;
 }
-
+/* Figure */
 .avatar {
   height: 356px;
   width: 100%;
 }
-
+/* Header */
 .info {
-  width: 100%;
   background: #f5f5f5;
   padding: 0 135px;
 }
@@ -39,4 +38,44 @@
   text-transform: capitalize;
   color: #626cc3;
   font-size: 56px;
+}
+/* Aside */
+.contatos {
+  height: 664px;
+  padding: 64px 48px 48px 48px;
+  background: #222;
+}
+
+.contatos .email {
+  padding: 0 0 24px;
+}
+
+.contatos .email > p {
+  font-size: 1.1em;
+  color: #fff;
+}
+
+#email {
+  text-transform: uppercase;
+}
+
+.contatos .telefone {
+  padding: 0 0 26px;
+}
+
+.contatos .telefone > p {
+  text-transform: uppercase;
+  font-size: 1.2;
+  color: #fff;
+}
+
+.contatos .icons {
+  color: #fff;
+  font-size: 1.4em;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+
+.contatos .icons > a {
+  color: inherit;
 }
