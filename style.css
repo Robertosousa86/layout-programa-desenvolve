@@ -162,9 +162,9 @@
   color: #fff;
 }
 
-#meusprojetos {
-  /* display: none; */
-}
+/* #meusprojetos {
+  display: none; 
+} */
 
 .detalhes .meusprojetos > h1::first-letter {
   text-transform: uppercase;
@@ -187,10 +187,22 @@
   color: #fff;
 }
 
-#skills {
-  /* display: none; */
-}
+/* #skills {
+   display: none; 
+} */
 
 .detalhes .skills > h1::first-letter {
   text-transform: uppercase;
+}
+
+.detalhes .skills .icons_skills {
+  font-size: 24px;
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+.detalhes .skills .icons_skills li{
+  list-style-type: none;
+  margin-right: 50px;
+  display: inline;
 }
