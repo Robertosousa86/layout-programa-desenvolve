@@ -12,13 +12,16 @@
 }
 /* Figure */
 .avatar {
-  height: 356px;
   width: 100%;
+  background-image: url("./image/20210218_190326.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 /* Header */
 .info {
+  height: 356px;
   background: #f5f5f5;
-  padding: 0 135px;
+  padding: 0 0 114px 135px;
 }
 
 .info .nome {
@@ -27,7 +30,7 @@
 
 .info .nome > p {
   color: #000;
-  font-size: 56px;
+  font-size: 3.5em;
 }
 
 .info .nome > p::first-letter {
@@ -37,12 +40,12 @@
 .info .nome__completo > p {
   text-transform: capitalize;
   color: #626cc3;
-  font-size: 56px;
+  font-size: 3.5em;
 }
 /* Aside */
 .contatos {
-  height: 664px;
-  padding: 64px 48px 48px 48px;
+  height: 100%;
+  padding: 64px 48px 56px 48px;
   background: #222;
 }
 
@@ -65,7 +68,7 @@
 
 .contatos .telefone > p {
   text-transform: uppercase;
-  font-size: 1.2;
+  font-size: 1em;
   color: #fff;
 }
 
@@ -78,4 +81,116 @@
 
 .contatos .icons > a {
   color: inherit;
+}
+/* Main */
+.detalhes {
+  padding: 40px 145px 80px 135px;
+  height: 100%;
+  background: #626cc3;
+  color: #fff;
+}
+
+.detalhes .sobremim {
+  border-bottom: 4px solid #fff;
+  padding-bottom: 40px;
+}
+
+.detalhes .sobremim > h1 {
+  font-size: 3.5em;
+  font-weight: 500;
+}
+
+.detalhes .sobremim > h1::first-letter {
+  text-transform: uppercase;
+}
+
+.detalhes .sobremim > p {
+  padding-top: 20px;
+}
+
+.detalhes .sobremim .texto_capacitacao {
+  padding-top: 20px;
+}
+
+.detalhes .sobremim .texto_capacitacao_container {
+  border-left: 2px dotted #fff;
+
+}
+
+.detalhes .sobremim .texto_capacitacao .periodo {
+  margin-top: 24px;
+  padding-left: 24px;
+  line-height: 25px;
+}
+
+.detalhes .sobremim .texto_experiencia .periodo_experiencia {
+  margin-top: 24px;
+  padding-left: 24px;
+  line-height: 25px;
+}
+
+.detalhes .sobremim .texto_experiencia_container {
+  border-left: 2px dotted #fff;
+  margin-top: 24px;
+
+}
+
+.detalhes .sobremim .texto_experiencia {
+  padding-top: 20px;
+}
+
+#sobre_mim {
+  /* display: none; */
+  /* padding-bottom: 10px; */
+  font-weight: 400;
+}
+
+.detalhes .meusprojetos {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 4px solid #fff;
+}
+
+.detalhes .meusprojetos > h1 {
+  font-size: 3.5em;
+  font-weight: 500;
+  color: #fff;
+}
+
+.detalhes .meusprojetos > p {
+  padding-top: 20px;
+  color: #fff;
+}
+
+#meusprojetos {
+  /* display: none; */
+}
+
+.detalhes .meusprojetos > h1::first-letter {
+  text-transform: uppercase;
+}
+
+.detalhes .skills {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 4px solid #fff;
+}
+
+.detalhes .skills > h1 {
+  font-size: 3.5em;
+  font-weight: 500;
+  color: #fff;
+}
+
+.detalhes .skills > p {
+  padding-top: 20px;
+  color: #fff;
+}
+
+#skills {
+  /* display: none; */
+}
+
+.detalhes .skills > h1::first-letter {
+  text-transform: uppercase;
 }
