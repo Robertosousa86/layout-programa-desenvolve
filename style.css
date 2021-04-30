@@ -92,7 +92,7 @@
 
 .detalhes .sobremim {
   border-bottom: 4px solid #fff;
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 }
 
 .detalhes .sobremim > h1 {
@@ -114,7 +114,6 @@
 
 .detalhes .sobremim .texto_capacitacao_container {
   border-left: 2px dotted #fff;
-
 }
 
 .detalhes .sobremim .texto_capacitacao .periodo {
@@ -132,16 +131,10 @@
 .detalhes .sobremim .texto_experiencia_container {
   border-left: 2px dotted #fff;
   margin-top: 24px;
-
-}
-
-.detalhes .sobremim .texto_experiencia {
-  padding-top: 20px;
 }
 
 #sobre_mim {
-  /* display: none; */
-  /* padding-bottom: 10px; */
+  display: none;
   font-weight: 400;
 }
 
@@ -162,14 +155,14 @@
   color: #fff;
 }
 
-/* #meusprojetos {
-  display: none; 
-} */
+#meusprojetos {
+  display: none;
+}
 
 .detalhes .meusprojetos > h1::first-letter {
   text-transform: uppercase;
 }
-
+/* Skills */
 .detalhes .skills {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -187,22 +180,32 @@
   color: #fff;
 }
 
-/* #skills {
-   display: none; 
-} */
+#skills {
+  display: none;
+}
 
 .detalhes .skills > h1::first-letter {
   text-transform: uppercase;
 }
 
 .detalhes .skills .icons_skills {
-  font-size: 24px;
+  font-size: 1.2em;
   font-weight: 300;
   padding-top: 25px;
 }
 
-.detalhes .skills .icons_skills li{
+.detalhes .skills .icons_skills li {
   list-style-type: none;
-  margin-right: 50px;
+  margin-right: 10%;
   display: inline;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .contatos {
+    height: 200%;
+  }
+
+  .detalhes {
+    height: 200%;
+  }
 }
